@@ -1,21 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learning HTML</title>
-</head>
-<body>
-    
-    <hr size="3" noshade="S"> <!--hr(horizontal rule) is a self closing tag-->
-    <h1>THE ADVENTURES OF <br>SHERLOCK HOLMES</h1>
+  </head>
+
+  <body>
+    <!--Image elements-->
+
+    <!--src for local files can be relative path when copying-->
+    <img src="images\mern.png" alt="mern stack" />
+
+    <br />
+
+    <hr size="3" noshade="S" />
+    <!--hr(horizontal rule) is a self closing tag-->
+    <h1>THE ADVENTURES OF <br />SHERLOCK HOLMES</h1>
     <!-- br(line break) is a self closing tag-->
-    <br>
+    <br />
     <h3>BY</h3>
-    <br>
+    <br />
     <h2>SIR ARTHUR CONAN DOYLE</h2>
-    <hr size="3" noshade="S">
-    
-    
-</body>
+    <hr size="3" noshade="S" />
+
+    <!--Start of Video challenges-->
+    <table cellspacing="10">
+      <thead></thead>
+      <tbody>
+        <tr>
+          <td>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Anonymous_emblem.svg/240px-Anonymous_emblem.svg.png"
+              alt="240px-Anonymous_emblem"
+            />
+          </td>
+          <td>
+            <h1>Minh Durbin</h1>
+            <p>
+              <em>Student trying to learn <strong>html</strong></em>
+            </p>
+            <p>
+              This is my bio <br /><em
+                ><a href="https://github.com/clamslam12" target="_blank"
+                  >My github</a
+                ></em
+              >
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr size="3" noshade="" />
+    <h3>Education</h3>
+
+    <!--********Lists***************-->
+
+    <ul>
+      <!--unordered list-->
+      <li>CCD</li>
+      <li>
+        <a
+          href="http://www.ucdenver.edu/pages/ucdwelcomepage.aspx"
+          target="_blank"
+          >CU Denver</a
+        >
+      </li>
+    </ul>
+    <hr size="3" noshade="" />
+    <h3>My Hobbies</h3>
+    <ol>
+      <li>gaming</li>
+      <li>music</li>
+      <li>coding</li>
+      <li>
+        <strong
+          ><a
+            href="https://www.google.com/search?q=eating&oq=eating&aqs=chrome..69i57j0l7.3757j1j7&sourceid=chrome&ie=UTF-8"
+            target="_blank"
+            >eating</a
+          ></strong
+        >
+      </li>
+    </ol>
+    <hr size="3" noshade="" />
+
+    <!--*********Links/Anchors***************-->
+    <!--a and ol/ul(li nested for list item)-->
+
+    <h3>
+      <a href="contact_me.html" target="_blank"
+        ><strong><em>Contact me</em></strong></a
+      >
+    </h3>
+    <hr size="3" noshade="" />
+    <h3><strong>Skills</strong></h3>
+
+    <!--nested tables-->
+    <!--table border puts a border around each td and around main outer block-->
+
+    <table cellspacing="10" border="1">
+      <thead></thead>
+      <tbody>
+        <tr>
+          <td>
+            <table cellspacing="10">
+              <thead></thead>
+              <tbody>
+                <tr>
+                  <td>Web Development</td>
+                  <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                  <td>Coding</td>
+                  <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+          <td>
+            <table cellspacing="10">
+              <thead></thead>
+              <tbody>
+                <tr>
+                  <td>Cooking</td>
+                  <td>⭐⭐</td>
+                </tr>
+                <tr>
+                  <td>Dancing</td>
+                  <td>⭐</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
